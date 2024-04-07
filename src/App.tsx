@@ -15,7 +15,7 @@ function App() {
 
               <div className="col">
                 <a className="navbar-brand hover-overlay hover-zoom hover-shadow ripple  text-white" href="#">
-                  Anasayfa
+                  Anasayfa.
 
                 </a>
               </div>
