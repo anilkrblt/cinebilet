@@ -39,13 +39,3 @@
 
 
 
-  /* Hover efekti */
-  .navbar-brand:hover {
-    color: #ffc107; /* İstediğiniz hover rengini burada belirtebilirsiniz */
-  }
-
-  /* Opsiyonel: Geçiş efekti */
-  .navbar-brand {
-    transition: color 0.3s ease; /* Rengin geçiş süresi ve türü */
-  }
-
