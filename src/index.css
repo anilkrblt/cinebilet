@@ -22,3 +22,28 @@ code {
 .card:hover {
   background-color: yellow;
 }
+
+.seat{
+  background-color: #444451;
+  height: 15px;
+  width: 15px;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+.seat.selected{
+  background-color: #f6eb6f;
+}
+
+.seat.reserved{
+  background-color: #fff
+}
+
+.screen{
+  background-color: #fff;
+  height: 50px;
+  width: 100%;
+  margin: 20px 0;
+  box-shadow: 0 3px 8px rgba(255, 255, 255, 0.7);
+  color: #444451;
+}
