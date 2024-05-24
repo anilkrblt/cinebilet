@@ -1,7 +1,7 @@
 // src/App.tsx
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar'; // Bu satırı güncelledik
+import Navbar from './components/Navbar';
 import Tabs from './components/Tabs';
 import MovieList from './components/MovieList';
 
@@ -18,8 +18,10 @@ const App: React.FC = () => {
         <div className="container mt-3">
           <Tabs />
           <div className="tab-content">
-            <MovieList />
-            <div id="menu1" className="container tab-pane fade">
+            <div id="vizyondakiler" className="container tab-pane active">
+              <MovieList />
+            </div>
+            <div id="gelecek-filmler" className="container tab-pane fade">
               <br />
               <h3 className="text-white display-3">Gelecek Filmler</h3>
               <p className="text-white display-4">Yakında...</p>

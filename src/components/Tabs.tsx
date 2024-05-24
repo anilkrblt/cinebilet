@@ -5,10 +5,10 @@ const Tabs: React.FC = () => {
   return (
     <ul className="nav nav-tabs" role="tablist">
       <li className="nav-item">
-        <a className="nav-link active" data-bs-toggle="tab" href="#home">Vizyondakiler</a>
+        <a className="nav-link active" data-bs-toggle="tab" href="#vizyondakiler">Vizyondakiler</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" data-bs-toggle="tab" href="#menu1">Gelecek Filmler</a>
+        <a className="nav-link" data-bs-toggle="tab" href="#gelecek-filmler">Gelecek Filmler</a>
       </li>
       <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Türler</a>
