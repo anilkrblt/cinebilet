@@ -1,13 +1,14 @@
-// src/components/Places.tsx
+// src/pages/Places.tsx
 import React from 'react';
+import MapComponent from '../components/MapComponent';
 import Navbar from './Navbar';
 
 const Places: React.FC = () => {
   return (
-    <div>
+    <div className="container mt-5">
       <Navbar />
-      <h1>Places Page</h1>
-      <p>Burada sinemalarımız hakkında bilgiler olacak...</p>
+      <h1>Sinemalarımız</h1>
+      <MapComponent />
     </div>
   );
 }

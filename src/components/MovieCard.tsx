@@ -1,5 +1,5 @@
-// src/components/MovieCard.tsx
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 interface Movie {
   movieName: string;
@@ -20,7 +20,7 @@ const MovieCard: React.FC<MovieCardProps> = ({ movie }) => {
         <p>Korku, Aksiyon</p>
         <hr />
         <p>NİSAN: 11, 12, 13</p>
-        <a href="#" className="btn btn-primary">Bilet Al</a>
+        <Link to="/tickets" className="btn btn-primary">Bilet Al</Link>
       </div>
       <div className="card-footer">
         <p className="card-text">
