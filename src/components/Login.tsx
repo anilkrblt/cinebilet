@@ -5,7 +5,11 @@ import Navbar from './Navbar';
 const Login: React.FC = () => {
   return (
     <div>
-        <Navbar></Navbar>
+          <div className="container-fluid text-center p-5">
+        <div className="row">
+          <Navbar />
+        </div>
+      </div>
 
 
 
@@ -140,7 +144,7 @@ const Login: React.FC = () => {
     </section>
 
 
-export default SignIn;
+
 
     </div>
   );

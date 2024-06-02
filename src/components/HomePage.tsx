@@ -1,8 +1,8 @@
 // src/components/HomePage.tsx
-import React from 'react';
-import Navbar from './Navbar';
-import Tabs from './Tabs';
-import MovieList from './MovieList';
+import React from "react";
+import Navbar from "./Navbar";
+import Tabs from "./Tabs";
+import MovieList from "./MovieList";
 
 const HomePage: React.FC = () => {
   return (
@@ -31,6 +31,6 @@ const HomePage: React.FC = () => {
       <div className="container text-center"></div>
     </>
   );
-}
+};
 
 export default HomePage;

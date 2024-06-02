@@ -1,3 +1,8 @@
+/* index.css */
+.navbar-spacing {
+  padding-top: 380px; /* Navbar'ın yüksekliğine göre ayarlayın */
+}
+
 
 .custom-navbar {
   background-color: #d1b2b2; /* İstediğiniz rengi buraya yazın */

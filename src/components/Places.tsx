@@ -6,7 +6,11 @@ import Navbar from './Navbar';
 const Places: React.FC = () => {
   return (
     <div className="container mt-5">
-      <Navbar />
+       <div className="container-fluid text-center p-5">
+        <div className="row">
+          <Navbar />
+        </div>
+      </div>
       <h1>Sinemalarımız</h1>
       <MapComponent />
     </div>
