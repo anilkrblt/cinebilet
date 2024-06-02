@@ -30,14 +30,14 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="container  bg-danger">
+    <div className="container  bg-danger mt-5 rounded p-3">
       <h2>İletişim</h2>
 
-      <div className="mb-3">
-        <label className="form-label">Email</label>
+      <div className="mb-3 ">
+        <label className="form-label ">Email</label>
         <input
           type="email"
-          className="form-control"
+          className="form-control col-3"
           id="exampleFormControlInput1"
           placeholder="name@example.com"
         ></input>

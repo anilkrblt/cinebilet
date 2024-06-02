@@ -12,8 +12,8 @@ const About: React.FC = () => {
           <Navbar />
         </div>
       </div>
-      <div style={{ marginTop: "150px" }}>
-        <div className="container p-5 expense bg-danger navbar-spacing">
+      <div style={{ marginTop: "100px " }}>
+        <div className="container p-5 expense bg-danger navbar-spacing  text-white rounded">
           <h1>Hakkımızda</h1>
           <p className="lh-lg fs-5">
             Hoş Geldiniz! Firmamız, CineBilet, 2024 tarihinde kurulmuş bir Film
@@ -33,12 +33,19 @@ const About: React.FC = () => {
             teklifleriyle ilgileniyorsanız, lütfen bizimle iletişime geçmekten
             çekinmeyin. Sizleri firmamıza bekliyoruz!
             <br></br>Saygılarımızla,<br></br>
-            Cinebilet Ekibi
+            <span className="fw-bold">Cinebilet Ekibi</span>
           </p>
 
-          <button>
-            <a href=""> Facebook</a>
+          <div className="row">
+          <button className="btn btn-lg btn-primary col-2">
+
+            <span className="ms-2 fs-6">Facebook'tan ulaşın</span>
           </button>
+          <button className="btn btn-lg btn-success col-2 ms-3">
+
+            <span className="ms-2 fs-6">WhatsApp'tan ulaşın</span>
+          </button>
+          </div>
         </div>
       </div>
       <div className="">
