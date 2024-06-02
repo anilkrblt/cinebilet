@@ -1,12 +1,12 @@
 // src/pages/Places.tsx
-import React from 'react';
-import MapComponent from '../components/MapComponent';
-import Navbar from './Navbar';
+import React from "react";
+import MapComponent from "../components/MapComponent";
+import Navbar from "./Navbar";
 
 const Places: React.FC = () => {
   return (
     <div className="container mt-5">
-       <div className="container-fluid text-center p-5">
+      <div className="container-fluid text-center p-5">
         <div className="row">
           <Navbar />
         </div>
@@ -15,6 +15,6 @@ const Places: React.FC = () => {
       <MapComponent />
     </div>
   );
-}
+};
 
 export default Places;

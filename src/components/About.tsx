@@ -7,12 +7,12 @@ import Navbar from "./Navbar";
 const About: React.FC = () => {
   return (
     <div>
-        <div className="container-fluid text-center p-5">
+      <div className="container-fluid text-center p-5">
         <div className="row">
           <Navbar />
         </div>
       </div>
-      <div style={{marginTop:"150px"}}>
+      <div style={{ marginTop: "150px" }}>
         <div className="container p-5 expense bg-danger navbar-spacing">
           <h1>Hakkımızda</h1>
           <p className="lh-lg fs-5">

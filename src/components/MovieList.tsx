@@ -1,7 +1,7 @@
 // src/components/MovieList.tsx
-import React from 'react';
-import { data } from '../dummy_data/dummy_data';
-import MovieCard from './MovieCard';
+import React from "react";
+import { data } from "../dummy_data/dummy_data";
+import MovieCard from "./MovieCard";
 
 interface Movie {
   movieName: string;
@@ -20,6 +20,6 @@ const MovieList: React.FC = () => {
       </div>
     </div>
   );
-}
+};
 
 export default MovieList;
