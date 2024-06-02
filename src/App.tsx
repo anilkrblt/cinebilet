@@ -6,6 +6,7 @@ import Offers from './components/Offers';
 import Places from './components/Places'; 
 import './App.css';
 import SeatSelect from './views/SeatSelect';
+import Login from './components/Login';
 
 const App: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
         <Route path="/offers" element={<Offers />} />
         <Route path="/places" element={<Places />} />
         <Route path="/tickets" element={<SeatSelect />} /> 
+        <Route path="/login" element={<Login />} />
         <Route path="/" element={<Navigate to="/home" />} />
       </Routes>
     </Router>
