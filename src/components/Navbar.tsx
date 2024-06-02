@@ -1,7 +1,7 @@
 // src/components/Navbar.tsx
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import logo from '../logo.png';
+import logo from '../cinebilet_logo.png';
 import '../App.css'; // CSS dosyasını import ettiğinizden emin olun
 
 const Navbar: React.FC = () => {
@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
         </div>
         <div className="col">
           <a className="navbar-brand" href="#">
-            <img src={logo} alt="Avatar Logo" style={{ width: '40px' }} className="rounded-pill" />
+            <img src={logo} alt="Avatar Logo" style={{ width: '100px' }} className="rounded-pill" />
           </a>
         </div>
         <div className="col">
