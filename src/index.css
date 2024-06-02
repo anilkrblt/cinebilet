@@ -1,5 +1,8 @@
 
-
+.custom-navbar {
+  background-color: #d1b2b2; /* İstediğiniz rengi buraya yazın */
+  
+}
 body {
 
  background-image: url("./dummy_data/bg.jpg");
