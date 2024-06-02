@@ -11,7 +11,7 @@ const Login: React.FC = () => {
         </div>
       </div>
 
-      <section className="py-3 py-md-5 py-xl-8 bg-danger ">
+      <section className="py-3 py-md-5 py-xl-8 bg-danger justify-content-center ">
         <div className="container" style={{ margin: 100 }}>
           <div className="row">
             <div className="col-12">
