@@ -2,7 +2,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../cinebilet_logo.png';
-import '../App.css'; // CSS dosyasını import ettiğinizden emin olun
+import '../App.css'; // CSS dosyasını import ettiğinizden emin olun.
 
 const Navbar: React.FC = () => {
   return (
